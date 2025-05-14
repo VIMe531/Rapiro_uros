@@ -19,11 +19,9 @@ rcl_subscription_t cmd_vel_subscriber;
 // messages
 geometry_msgs__msg__Twist cmd_vel_msg;
 
-/*
 char ssid[] = "SSID";
 char password[] = "PASSWORD";
-char host_ip[] = "192.168.1.1";
-*/
+char host_ip[] = "HOST_IP";
 
 // Error macros
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){ \
